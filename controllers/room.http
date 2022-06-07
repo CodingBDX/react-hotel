@@ -1,0 +1,10 @@
+POST   http://localhost:8800/api/rooms/629f2f9ab4d7ab75f7170f05 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "awesome",
+    "desc": "beautiful bathroom",
+    "price": 100,
+    "maxPeople": 3,
+    "roomNumbers": [{"number":101}, {"number":102}]
+}
